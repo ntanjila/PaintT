@@ -53,7 +53,6 @@ public class MainActivity extends AppCompatActivity {
                     public void onPermissionsChecked(MultiplePermissionsReport multiplePermissionsReport) {
                         Toast.makeText(MainActivity.this, "Granted", Toast.LENGTH_SHORT).show();
                     }
-
                     @Override
                     public void onPermissionRationaleShouldBeShown(List<PermissionRequest> list, PermissionToken permissionToken) {
                         permissionToken.continuePermissionRequest();
